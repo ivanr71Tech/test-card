@@ -50,8 +50,7 @@ AppPart:
   AvailableAppFaceRecords: null
   HasPattern: !!bool false
 RoleViewPermissionsPart:
-  AllowedRoles:
-    - Authenticated
+  AllowedRoles: []
   Audiences: []
   Mandatory: False
 RecurringTaskPart:

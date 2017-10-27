@@ -33,7 +33,7 @@ properties:
       - _start
     default: 
 $meta:
-  cardId: -1
+  cardId: !!int 6449
   preview-data: |-
     {  
       "url": "http://www.nowassistant.com",
