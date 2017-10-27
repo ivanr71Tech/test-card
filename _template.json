@@ -1,0 +1,9 @@
+{
+    "title": "Test Card",
+    "description": "Test basic card with test data definition",
+    "ctype": "Card",
+    "interfaces": "search,feed,items",
+    "icon": "now:search",
+    "category": "orange",
+    "card": true
+}

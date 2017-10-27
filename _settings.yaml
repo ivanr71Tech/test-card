@@ -1,0 +1,68 @@
+contentType: Card
+title: Test Basic Card
+name: test-card
+CollectionModeField:
+  CollectionMode: 0
+MaxItemsField:
+  MaxItems: 3
+PriorityField:
+  Priority: 5
+StreamSource: null
+CardComponent: test-card/test-card-card
+StoreMetadataField:
+  description: 
+  logourl: 
+CommonPart:
+  Owner: null
+  Container: null
+  CreatedUtc: 2017-10-25T14:58:18.3706844Z
+  PublishedUtc: 2017-10-25T14:58:18.4996815Z
+  ModifiedUtc: 2017-10-25T14:58:18.3706844Z
+  VersionCreatedUtc: 2017-10-25T14:58:18.0000000
+  VersionPublishedUtc: 2017-10-25T14:58:18.0000000
+  VersionModifiedUtc: 2017-10-25T14:58:18.0000000
+ServicePart:
+  ConnectorTypeId: !!int 0
+  ConnectorName: UpdateSubscription
+  ServiceName: Subscription
+  Url: ~/api/adenin.GateKeeper.Subscription/UpdateSubscription
+SearchContextPart:
+  Query: null
+  Interface: null
+CommandPart:
+  CommandType: None
+  Command: leave, pto, annual, time off, holiday
+  DefaultDate: null
+  Intent: pto_status_card
+  Ext: {}
+AppPart:
+  App: null
+  Url: 
+  ExtUrl: 
+  Priority: !!int 0
+  AppFaceId: !!int 0
+  Category: orange
+  Icon: now:search
+  CSSClasses: null
+  Enabled: !!bool false
+  NewWindow: !!bool false
+  UrlWithId: !!bool true
+  AvailableAppFaceRecords: null
+  HasPattern: !!bool false
+RoleViewPermissionsPart:
+  AllowedRoles:
+    - Authenticated
+  Audiences: []
+  Mandatory: False
+RecurringTaskPart:
+  Schedule: '- - - - -'
+  ActivityType: adenin.Now.Activities.CardTask.UpdateCard
+  StartDateUtc: null
+  EndDateUtc: null
+  NextOccurrenceUtc: null
+  Priority: !!int 5
+  Status: Enabled
+  NowFlag: 0
+  LastExecutionUTC: null
+  EnableWebHook: !!bool false
+  WebHookToken: null

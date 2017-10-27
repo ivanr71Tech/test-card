@@ -1,0 +1,47 @@
+$type: card
+rules: []
+properties:
+  title:
+    type: element
+    xtype: at-carbon-card-title
+    title: Basic Card Sample
+    xgridcols: 12
+    xstyle: 
+    xclass: 
+    actionListeners:
+      - _start
+  content:
+    type: element
+    xtype: at-core-view
+    modelRoot: state.model
+    model: 
+    view: |-
+      <at-link href="{{url}}">
+            <div class="layout-horizontal p prsm">        
+              <div class="font-body1 layout-self-center layout-flex">
+                {{title}}              
+              </div>
+              <div class="layout-self-center blue ">
+                <at-carbon-icon icon="now:home"></at-carbon-icon>
+              </div>
+          </div>
+      </at-link>
+    xgridcols: 12
+    xstyle: 
+    xclass: 
+    actionListeners:
+      - _start
+    default: 
+$meta:
+  cardId: -1
+  preview-data: |-
+    {  
+      "url": "http://www.nowassistant.com",
+      "title": "Home"
+    }
+  preview-mode: static
+  preview-container: event
+  search-term: 
+  service-url: 
+  xclass: 
+  xstyle: 
